@@ -120,7 +120,7 @@ while True:
     window.blit(score_text, (10, 10))
     # Draw the best score on the screen
     best_score_text = score_font.render('Best Score: ' + str(best_score), True, green)
-    window.blit(best_score_text, (300, 10))
+    window.blit(best_score_text, (250, 10))
 
     # Update the display
     pygame.display.update()
